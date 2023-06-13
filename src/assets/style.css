@@ -1,0 +1,16 @@
+.input-style{
+  border: 1px solid;
+  margin-bottom: 5px;
+  outline: none;
+  padding: 10px;
+  border-color: rgb(38, 46, 30);
+  background-color: transparent;
+  color: black;
+  border-radius: 10px;
+  min-width: none;
+  max-width: none;
+}
+.input-style:focus{
+  border:1px solid;
+  border-color:red
+}

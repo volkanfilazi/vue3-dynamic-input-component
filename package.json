@@ -1,0 +1,57 @@
+{
+  "name": "vue-dynamic-input-component",
+  "private": false,
+  "version": "0.1.5",
+  "license": "MIT",
+  "author": {
+    "name": "volkanfilazi",
+    "email": "volkanfilazi@hotmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/volkanfilazi/vue-dynamic-input-component.git"
+  },
+  "type": "module",
+  "files": [
+    "dist",
+    "src",
+    "dist/style.css"
+  ],
+  "main": "dist/vue-dynamic-input-component.js",
+  "module": "dist/vue-dynamic-input-component.js",
+  "unpkg": "dist/vue-dynamic-input-component.min.js",
+  "types": "./dist/main.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-dynamic-input-component.js",
+      "require": "./dist/vue-dynamic-input-component.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vue-tsc --emitDeclarationOnly",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@iconify/vue": "^4.1.1",
+    "autoprefixer": "^10.4.14",
+    "vue": "^3.2.47"
+  },
+  "keywords": [
+    "vue",
+    "component",
+    "library",
+    "input",
+    "vue3",
+    "custom-input",
+    "input-modal"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vue-tsc": "^1.4.2"
+  }
+}
